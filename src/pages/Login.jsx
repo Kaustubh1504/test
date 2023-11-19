@@ -36,7 +36,7 @@ const Login = () => {
         <input
           required
           type="text"
-          placeholder="username"
+          placeholder="email"
           name="username"
           onChange={handleChange}
         />
