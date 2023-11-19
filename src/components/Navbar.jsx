@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="container">
         <div className="logo">
           <Link to="/">
-          <img src={Logo} alt="" />
+          <img src="https://1000logos.net/wp-content/uploads/2020/08/Blogger-Logo-2010.png" alt="" />
           </Link>
         </div>
         <div className="links">
