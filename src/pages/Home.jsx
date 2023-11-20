@@ -5,7 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 import axios from "axios";
 
 const Home = () => {
-  const baseurl = "https://blog-backend-2-q24f.onrender.com/readall"
+  const baseurl = "https://blog-backend-2-q24f.onrender.com"
   const [posts, setPosts] = useState([]);
 
   const cat = useLocation().search
