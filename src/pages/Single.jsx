@@ -10,7 +10,7 @@ import { AuthContext } from "../context/authContext";
 import DOMPurify from "dompurify";
 
 const Single = () => {
-  const baseurl = "http://localhost:8000"
+  const baseurl = "https://blog-backend-2-q24f.onrender.com"
   const [post, setPost] = useState({});
 
   const location = useLocation();
