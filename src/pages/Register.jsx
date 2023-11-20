@@ -22,7 +22,7 @@ const Register = () => {
     // console.log(inputs.email)
 
     try {
-      await axios.post("http://localhost:8000/register",inputs);
+      await axios.post("https://blog-backend-2-q24f.onrender.com/register",inputs);
       navigate("/login");
     } catch (err) {
       // setError(err.response.data);
