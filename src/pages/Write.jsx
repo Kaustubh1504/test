@@ -6,7 +6,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import moment from "moment";
 
 const Write = () => {
-  const baseurl = "http://localhost:8000"
+  const baseurl = "https://blog-backend-2-q24f.onrender.com"
   const state = useLocation().state;
   const [value, setValue] = useState(state?.desc || "");
   const [title, setTitle] = useState(state?.title || "");
