@@ -2,7 +2,7 @@ import axios from "axios";
 import { createContext, useEffect, useState } from "react";
 
 export const AuthContext = createContext();
-const baseurl = "http://localhost:8000"
+const baseurl = "https://blog-backend-2-q24f.onrender.com"
 export const AuthContexProvider = ({ children }) => {
   const [currentUser, setCurrentUser] = useState(
     JSON.parse(localStorage.getItem("user")) || null
